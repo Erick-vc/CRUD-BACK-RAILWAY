@@ -19,6 +19,8 @@ app.use(express.json());
 
 app.use(taskRoutes);
 
+app.use(express.static(join(__dirname, 'https://sunny-marshmallow-bac805.netlify.app/')));
+
 app.listen(PORT);
 
 
