@@ -6,7 +6,7 @@ import {dirname, join}  from 'path';
 
 
 
-import taskRoutes from './src/routes/tasks.routes.js'
+import taskRoutes from './routes/tasks.routes.js'
 
 // import { pool } from './db.js'
 
