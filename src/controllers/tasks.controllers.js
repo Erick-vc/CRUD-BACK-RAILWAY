@@ -1,4 +1,4 @@
-import { pool } from "../db.js";
+import { pool } from "../../db.js";
 
 // ? Mostrar todas las tareas
 export const getCustomers = async (req, res) => {
